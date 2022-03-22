@@ -1,0 +1,49 @@
+count: 150
+filetype: "png"
+assets:
+  path: "assets"
+  layers:
+    - name: "BG"
+      required: True
+    - name: "Rice"
+      required: True
+      rarity_weights:
+        Black: 10
+        Golden: 35
+        Iridescent: 5 
+        Sushi: 50
+    - name: "Nori"
+      required: True
+    - name: "Topping"
+      required: False
+      rarity_weights:
+        None: 80
+        Unagi: 5
+        Cucumber: 5
+        Ebi: 5
+        Salmon Roe: 1 
+        Salmon: 1
+        Tamago: 1
+        Tuna: 2
+rules:
+  - filter: "notequals"
+    trait_1:
+      name: "Rice"
+      value: "Golden"
+    trait_2:
+      name: "BG"
+      value: "Bone White"
+  - filter: "notequals"
+    trait_1:
+      name: "Rice"
+      value: "Black"
+    trait_2:
+      name: "BG"
+      value: "Bone White"
+  - filter: "equals"
+    trait_1:
+      name: "Nori"
+      value: "Midas"
+    trait_2:
+      name: "BG"
+      value: "Bone White"
