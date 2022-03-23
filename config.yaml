@@ -1,49 +1,60 @@
-count: 150
+count: 1000
 filetype: "png"
 assets:
   path: "assets"
   layers:
-    - name: "BG"
+    - name: "background"
       required: True
-    - name: "Rice"
+    - name: "punks"
       required: True
       rarity_weights:
-        Black: 10
-        Golden: 35
-        Iridescent: 5 
-        Sushi: 50
-    - name: "Nori"
+        alien: .1
+        ape: .9
+        female1: 12
+        female2: 12
+        female3: 12
+        female4: 12
+        male1: 12
+        male2: 12
+        male3: 12
+        male4: 12
+        zombie: 3
+    - name: "top"
       required: True
-    - name: "Topping"
+    - name: "beard"
+      required: True
+    - name: "glasses"
+      required: False
+    - name: "mouth"
+      required: False
+    - name: "cheek"
+      required: False
+    - name: "chain"
       required: False
       rarity_weights:
         None: 80
-        Unagi: 5
-        Cucumber: 5
-        Ebi: 5
-        Salmon Roe: 1 
-        Salmon: 1
-        Tamago: 1
-        Tuna: 2
+        gold_chain: 10
+        silver_chain: 10
+
 rules:
   - filter: "notequals"
     trait_1:
-      name: "Rice"
-      value: "Golden"
+      name: "punks"
+      value: "alien"
     trait_2:
-      name: "BG"
-      value: "Bone White"
+      name: "top"
+      value: "wild_blonde"
   - filter: "notequals"
     trait_1:
-      name: "Rice"
-      value: "Black"
+      name: "punks"
+      value: "alien"
     trait_2:
-      name: "BG"
-      value: "Bone White"
+      name: "top"
+      value: "wild_hair"
   - filter: "equals"
     trait_1:
-      name: "Nori"
-      value: "Midas"
+      name: "background"
+      value: "purple"    
     trait_2:
-      name: "BG"
-      value: "Bone White"
+      name: "punks"
+      value: "female1"
