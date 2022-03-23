@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Generative Art Tools
 
-![easely-logo](pics/easely-logo.png)
+![easely-logo](pics/easely-logo-wide.png)
 
 Easely offers tools to help creators create their generative NFTs (PFP and avatar collections). Generative NFTs layer various traits (backgrounds, bodies, hats, accessories, etc.) on top of each other to randomly generate unique NFTs. This has been popularized by CryptoPunks, Bored Ape Yacht Club, Azuki, and many, many more collections. 
 
