@@ -5,6 +5,8 @@ sidebar_position: 1
 
 ![easely-logo](pics/easely-logo-wide.png)
 
+**NOTE: If you have any questions or would like an onboarding call, hop into our [Discord](https://discord.gg/YpA4JumgC2) and reach out to anyone on the Easely team.** 
+
 Easely offers tools to help creators create their generative NFTs (PFP and avatar collections). Generative NFTs layer various traits (backgrounds, bodies, hats, accessories, etc.) on top of each other to randomly generate unique NFTs. This has been popularized by CryptoPunks, Bored Ape Yacht Club, Azuki, and many, many more collections. 
 
 Although the value of PFP projects started out purely as collector value, generative NFTs have evolved into so much more: 
@@ -63,7 +65,7 @@ VS Code will now open Easely's generative art programs. There should be an `asse
 
 The last step is to download the correct software languages and packages used in the generative art program. For the more technically inclined, you can find the list of programs in the `requirements.txt` file. 
 
-Python is a coding language and is built into most operating systems today, but the latest version is recommended to reduce issues. Python3 can be downloaded and installed [here](https://www.python.org/downloads/https://www.python.org/downloads/). Type and enter in Terminal (Mac) to check your version is up to date and that python3 is working properly.
+Python is a coding language and is built into most operating systems today, but the latest version is recommended to reduce issues. Python3 can be downloaded and installed [here](https://www.python.org/downloads/). Type and enter in Terminal (Mac) to check your version is up to date and that python3 is working properly.
 
 ```jsx
 python3 --version
@@ -261,7 +263,7 @@ Create a [Pinata](https://pinata.cloud) account and choose the plan appropriate 
 
 #### Create and Store your API Keys
 
-Login to your Pinata account, click on your profile in the upper right corner, and select `API Keys` (regular version is fine, V2 is not needed). Create a new API key and store the `JWT` in your secure password manager. 
+Login to your Pinata account, click on your profile in the upper right corner, and select `API Keys`. Create a new API key and store the `JWT` in your secure password manager. 
 
 #### Config and Run upload.py
 
